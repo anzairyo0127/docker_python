@@ -1,0 +1,7 @@
+version: '3'
+services:
+    svc_python:
+        build: .
+        volumes:
+              - ./programing:/var/programing
+        command: python main.py
